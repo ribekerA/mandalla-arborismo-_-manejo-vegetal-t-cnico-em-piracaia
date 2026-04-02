@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-mandalla-dark: #1B3C35;
+  --color-mandalla-lime: #B5D334;
+  --color-mandalla-slate: #F8FAFC;
+  --font-sans: var(--font-sans);
+  --font-display: var(--font-display);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-mandalla-slate text-mandalla-dark selection:bg-mandalla-lime/30;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

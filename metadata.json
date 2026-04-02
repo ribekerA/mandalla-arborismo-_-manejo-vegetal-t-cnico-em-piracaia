@@ -1,0 +1,7 @@
+{
+  "name": "Mandalla Arborismo | Manejo Vegetal Técnico em Piracaia",
+  "description": "Especialistas em arborismo técnico, poda em altura e manejo vegetal especializado em Piracaia e região. Segurança, técnica e preservação do patrimônio.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
