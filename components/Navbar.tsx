@@ -62,6 +62,7 @@ export const Navbar = () => {
               <a 
                 href="https://wa.me/5511911113553" 
                 target="_blank"
+                aria-label="Falar com consultor via WhatsApp"
                 className={`px-8 py-4 rounded-full text-[11px] font-black uppercase tracking-widest transition-all duration-500 flex items-center gap-3 ${isScrolled ? 'bg-mandalla-dark text-white hover:bg-mandalla-lime hover:text-mandalla-dark' : 'bg-mandalla-dark text-white hover:bg-mandalla-lime shadow-xl hover:-translate-y-1'}`}
               >
                 <WhatsAppIcon className="w-4 h-4" /> Consultoria
@@ -69,7 +70,12 @@ export const Navbar = () => {
             </div>
 
             <div className="md:hidden">
-              <button onClick={() => setIsOpen(!isOpen)} className={`p-2 transition-colors z-50 relative text-mandalla-dark`}>
+              <button 
+                onClick={() => setIsOpen(!isOpen)} 
+                aria-label="Abrir menu de navegação"
+                aria-expanded={isOpen}
+                className={`p-2 transition-colors z-50 relative text-mandalla-dark`}
+              >
                 {isOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
               </button>
             </div>

@@ -89,7 +89,12 @@ export const Footer = () => {
             © {new Date().getFullYear()} Mandalla Arborismo. Qualidade Técnica e Segurança.
           </p>
           <div className="flex gap-6">
-            <a href="https://www.instagram.com/arbo.mandalla/" target="_blank" className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-mandalla-dark hover:border-mandalla-dark hover:bg-slate-50 transition-all">
+            <a 
+              href="https://www.instagram.com/arbo.mandalla/" 
+              target="_blank" 
+              aria-label="Acessar Instagram da Mandalla Arborismo"
+              className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center text-slate-400 hover:text-mandalla-dark hover:border-mandalla-dark hover:bg-slate-50 transition-all"
+            >
               <Instagram className="w-5 h-5" />
             </a>
           </div>

@@ -13,6 +13,10 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://mandallaarborismo.com.br'),
+  alternates: {
+    canonical: '/',
+  },
   title: {
     default: 'Mandalla Arborismo | Manejo Vegetal Técnico em Piracaia',
     template: '%s | Mandalla Arborismo',
@@ -26,10 +30,31 @@ export const metadata: Metadata = {
     siteName: 'Mandalla Arborismo',
     title: 'Mandalla Arborismo | Manejo Vegetal Técnico',
     description: 'Ciência aplicada à preservação. Especialistas em arboricultura de grande porte e acesso por corda.',
+    images: [
+      {
+        url: 'https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=1200&h=630',
+        width: 1200,
+        height: 630,
+        alt: 'Mandalla Arborismo Técnico',
+      }
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mandalla Arborismo | Manejo Vegetal Técnico',
+    description: 'Especialistas em manejo vegetal técnico e poda em altura.',
+    images: ['https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=1200&h=630'],
   },
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
