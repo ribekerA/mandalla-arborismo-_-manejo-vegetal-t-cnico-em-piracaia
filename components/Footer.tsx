@@ -156,7 +156,15 @@ export const Footer = () => {
         <div className="pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-slate-500 text-xs font-medium">
           <p>© {new Date().getFullYear()} Mandalla Arborismo. Todos os direitos reservados.</p>
           <p className="text-center sm:text-right">
-            Arborismo técnico com planejamento, segurança e precisão — Piracaia, SP.
+            Site desenvolvido por{' '}
+            <a
+              href="https://wa.me/5511980931247"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-500 hover:text-mandalla-lime transition-colors underline underline-offset-2"
+            >
+              Arthur Ribeker
+            </a>
           </p>
         </div>
       </div>
