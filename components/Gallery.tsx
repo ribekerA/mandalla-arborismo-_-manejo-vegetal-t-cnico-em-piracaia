@@ -11,7 +11,7 @@ export const Gallery = () => {
       url: "https://images.pexels.com/photos/34674271/pexels-photo-34674271.jpeg", 
       title: "Poda de Risco em Condomínio",
       category: "Acesso por Corda",
-      location: "Alphaville, SP",
+      location: "Atibaia, SP",
       problem: "Eucalipto de 25m com risco iminente de queda sobre a rede de alta tensão e residências.",
       solution: "Descida guiada e fracionada (rigging), garantindo zero impacto no solo e proteção ao patrimônio."
     },

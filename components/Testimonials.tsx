@@ -13,7 +13,7 @@ export const Testimonials = () => {
     },
     {
       name: "Ana Paula Silveira",
-      role: "Proprietária em Alphaville",
+      role: "Proprietária em Atibaia",
       text: "Tinha uma árvore com risco de queda sobre a casa. Outras empresas queriam apenas cortar tudo. A Mandalla fez um reforço estrutural e uma poda corretiva que salvou a árvore e minha paz.",
       avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=100&h=100"
     },
