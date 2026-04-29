@@ -1,4 +1,4 @@
-import { Zap, TreePine, Bug, Construction, Clock, CheckCircle2, Ruler, LucideIcon } from 'lucide-react';
+import { Zap, TreePine, Bug, Construction, Clock, CheckCircle2, Ruler, AlertTriangle, LucideIcon } from 'lucide-react';
 
 export interface ServiceData {
   title: string;
@@ -25,7 +25,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Utilizamos equipamentos de corte de alta performance e técnicas de rigging (sistema de polias e cordas) para descer galhos pesados de forma controlada, evitando danos ao solo ou estruturas abaixo.",
     icon: Zap,
-    image: "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/30387769/pexels-photo-30387769.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   },
   'manejo-vegetal': {
     title: "Manejo Vegetal",
@@ -40,7 +40,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Trabalhamos com motosserras de última geração e técnicas de corte segmentado, onde a árvore é removida em partes de cima para baixo, garantindo controle total da operação.",
     icon: TreePine,
-    image: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/7812847/pexels-photo-7812847.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   },
   'controle-de-pragas': {
     title: "Controle de Pragas",
@@ -55,7 +55,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Utilizamos injeções sistêmicas e tratamentos de solo que garantem a absorção dos nutrientes e defensivos de forma eficiente, sem dispersão desnecessária no ambiente.",
     icon: Bug,
-    image: "https://images.unsplash.com/photo-1591955506264-3f5a6834570a?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/8821016/pexels-photo-8821016.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   },
   'reforco-estrutural': {
     title: "Reforço Estrutural",
@@ -70,7 +70,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Seguimos padrões internacionais de arboricultura para instalação de sistemas de sustentação, garantindo que os materiais utilizados não firam o câmbio da árvore.",
     icon: Construction,
-    image: "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/35606516/pexels-photo-35606516.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   },
   'revitalizacao': {
     title: "Revitalização",
@@ -85,7 +85,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Utilizamos ferramentas de ar comprimido para descompactar o solo sem ferir as raízes finas, permitindo a introdução de microrganismos benéficos e matéria orgânica.",
     icon: Clock,
-    image: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/15163244/pexels-photo-15163244.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   },
   'manutencao': {
     title: "Manutenção",
@@ -100,7 +100,7 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Estabelecemos um cronograma personalizado baseado na espécie e localização das árvores, antecipando problemas antes que se tornem riscos reais.",
     icon: CheckCircle2,
-    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/18355077/pexels-photo-18355077.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   },
   'acesso-por-corda': {
     title: "Acesso por Corda",
@@ -115,7 +115,22 @@ export const servicesData: Record<string, ServiceData> = {
     ],
     technicalDetails: "Nossa equipe possui certificação NR-35 e utiliza sistemas de cordas duplas (DRT/SRT) que garantem redundância de segurança em todas as etapas da subida e descida.",
     icon: Ruler,
-    image: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200&h=800"
+    image: "https://images.pexels.com/photos/2905995/pexels-photo-2905995.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
+  },
+  'avaliacao-de-risco': {
+    title: "Avaliação de Risco Arbóreo",
+    subtitle: "Diagnóstico Técnico Antes que o Problema Aconteça",
+    description: "Vistoria técnica especializada que identifica falhas estruturais, inclinações críticas, apodrecimento interno e risco real de queda. Laudo com recomendação clara de intervenção.",
+    fullDescription: "A avaliação de risco arbóreo é a base de qualquer decisão técnica responsável. Antes de indicar poda, supressão ou reforço estrutural, nossos especialistas realizam inspeção visual detalhada, análise biomecânica e documentação fotográfica. O laudo técnico gerado fundamenta a tomada de decisão e pode ser usado junto a prefeituras e seguradoras.",
+    benefits: [
+      "Identificação precoce de risco de queda",
+      "Laudo técnico para uso junto a órgãos ambientais",
+      "Base para decisão de poda, supressão ou preservação",
+      "Documentação para fins de seguro e responsabilidade civil"
+    ],
+    technicalDetails: "A avaliação segue metodologia TRAQ (Tree Risk Assessment Qualification) adaptada, com análise de zona de destino, carga de vento, histórico de falhas e condição do sistema radicular.",
+    icon: AlertTriangle,
+    image: "https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop"
   }
 };
 

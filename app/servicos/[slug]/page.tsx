@@ -7,7 +7,7 @@ interface ServicePageProps {
   params: Promise<{ slug: string }>;
 }
 
-// Pre-generate all 7 service pages at build time (SSG)
+// Pre-generate all service pages at build time (SSG)
 export async function generateStaticParams() {
   return Object.keys(servicesData).map((slug) => ({
     slug,

@@ -6,6 +6,8 @@ import Hero from '@/components/Hero';
 import Showreel from '@/components/Showreel';
 import Gallery from '@/components/Gallery';
 import Services from '@/components/Services';
+import ProcessSection from '@/components/ProcessSection';
+import SafetySection from '@/components/SafetySection';
 import TrustSection from '@/components/TrustSection';
 import CTASection from '@/components/CTASection';
 import Testimonials from '@/components/Testimonials';
@@ -19,8 +21,10 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Showreel />
-      <Gallery />
       <Services />
+      <ProcessSection />
+      <Gallery />
+      <SafetySection />
       <TrustSection />
       <Testimonials />
       <FAQ />

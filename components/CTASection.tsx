@@ -16,7 +16,7 @@ export const CTASection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-mandalla-dark rounded-[5rem] p-20 md:p-32 text-center relative overflow-hidden shadow-[0_60px_120px_-20px_rgba(27,60,53,0.5)] border-[12px] border-slate-50">
           <div className="absolute inset-0 opacity-10">
-            <Image src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?auto=format&fit=crop&q=80&w=1200&h=800" alt="Fundo" fill className="object-cover" referrerPolicy="no-referrer" />
+            <Image src="https://images.pexels.com/photos/2310483/pexels-photo-2310483.jpeg?auto=compress&cs=tinysrgb&w=1200&h=800&fit=crop" alt="Fundo" fill className="object-cover" referrerPolicy="no-referrer" />
           </div>
           
           <div className="relative z-10">
@@ -25,7 +25,7 @@ export const CTASection = () => {
               <span className="text-mandalla-lime">Execução Técnica.</span>
             </h2>
             <p className="text-slate-400 text-2xl mb-20 max-w-3xl mx-auto font-bold leading-relaxed">
-              Não entregue a segurança do seu patrimônio na mão de amadores. Conte com nossa equipe especializada para vistorias, laudos e intervenções severas com acesso por corda.
+              Equipe NR-35 certificada, seguro de responsabilidade civil e método técnico em cada intervenção. Vistorias, laudos e serviços de arborismo em Piracaia e região.
             </p>
             
             <div className="flex flex-col md:flex-row items-center justify-center gap-10">

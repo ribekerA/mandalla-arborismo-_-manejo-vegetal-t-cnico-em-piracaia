@@ -17,7 +17,7 @@ export default function AboutContent() {
       <section className="relative pt-40 pb-24 overflow-hidden bg-mandalla-dark text-white">
         <div className="absolute inset-0 opacity-20">
           <Image 
-            src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&q=80&w=1920&h=1080" 
+            src="https://images.pexels.com/photos/35089307/pexels-photo-35089307.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
             alt="Sobre a Mandalla" 
             fill 
             className="object-cover"
@@ -65,7 +65,7 @@ export default function AboutContent() {
             </div>
             <div className="relative h-[600px] rounded-[5rem] overflow-hidden shadow-2xl border-[20px] border-slate-50">
               <Image 
-                src="https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=800&h=1200" 
+                src="https://images.pexels.com/photos/2310483/pexels-photo-2310483.jpeg?auto=compress&cs=tinysrgb&w=800&h=1200&fit=crop" 
                 alt="Equipe Mandalla" 
                 fill 
                 className="object-cover"

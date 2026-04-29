@@ -8,7 +8,7 @@ import Image from 'next/image';
 export const Gallery = () => {
   const cases = [
     { 
-      url: "https://images.unsplash.com/photo-1598902108854-10e335adac99", 
+      url: "https://images.pexels.com/photos/34674271/pexels-photo-34674271.jpeg", 
       title: "Poda de Risco em Condomínio",
       category: "Acesso por Corda",
       location: "Alphaville, SP",
@@ -16,7 +16,7 @@ export const Gallery = () => {
       solution: "Descida guiada e fracionada (rigging), garantindo zero impacto no solo e proteção ao patrimônio."
     },
     { 
-      url: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d", 
+      url: "https://images.pexels.com/photos/7812847/pexels-photo-7812847.jpeg", 
       title: "Manejo Vegetal para Nova Obra",
       category: "Supressão Técnica",
       location: "Piracaia, SP",
@@ -24,7 +24,7 @@ export const Gallery = () => {
       solution: "Supressão controlada em blocos e trituração de galhadas no local para compostagem."
     },
     { 
-      url: "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1", 
+      url: "https://images.pexels.com/photos/31127615/pexels-photo-31127615.jpeg", 
       title: "Resgate de Matriz Centenária",
       category: "Reforço Estrutural",
       location: "Bragança Paulista, SP",
@@ -57,7 +57,7 @@ export const Gallery = () => {
             >
               <div className="relative h-72 w-full bg-slate-200 shrink-0 overflow-hidden">
                 <Image 
-                  src={`${c.url}?auto=format&fit=crop&q=80&w=800&h=600`} 
+                  src={`${c.url}?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop`} 
                   alt={c.title}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-[2s] ease-out"

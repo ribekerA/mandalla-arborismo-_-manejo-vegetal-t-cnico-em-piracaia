@@ -41,7 +41,7 @@ export const TrustSection = () => {
             <div className="grid grid-cols-2 gap-4 sm:gap-6 xl:gap-10">
               <div className="space-y-6 sm:space-y-10">
                 <div className="rounded-[2rem] sm:rounded-[4rem] overflow-hidden h-[300px] sm:h-[400px] border-[6px] sm:border-[12px] border-mandalla-lime/10 shadow-3xl relative group">
-                  <Image src="https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=500&h=800" alt="Equipamento técnico" width={500} height={800} className="object-cover h-full w-full group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
+                  <Image src="https://images.pexels.com/photos/6218318/pexels-photo-6218318.jpeg?auto=compress&cs=tinysrgb&w=500&h=800&fit=crop" alt="Arborista com motosserra e equipamento de segurança" width={500} height={800} className="object-cover h-full w-full group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
                   <div className="absolute inset-0 bg-black/30"></div>
                 </div>
                 <div className="bg-mandalla-lime p-5 lg:p-6 xl:p-14 rounded-[2rem] sm:rounded-[3rem] text-center shadow-3xl border-[6px] sm:border-[8px] border-white/5 flex flex-col items-center justify-center">
@@ -55,7 +55,7 @@ export const TrustSection = () => {
                   <span className="text-[9px] sm:text-[12px] font-black uppercase tracking-[0.2em] sm:tracking-[0.3em] text-slate-400 leading-tight">Projetos Executados</span>
                 </div>
                 <div className="rounded-[2rem] sm:rounded-[4rem] overflow-hidden h-[300px] sm:h-[400px] border-[6px] sm:border-[12px] border-white/5 shadow-3xl relative group">
-                  <Image src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=500&h=800" alt="Trabalho técnico" width={500} height={800} className="object-cover h-full w-full group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
+                  <Image src="https://images.pexels.com/photos/34674271/pexels-photo-34674271.jpeg?auto=compress&cs=tinysrgb&w=500&h=800&fit=crop" alt="Arborista escalando árvore com arnesen e motosserra" width={500} height={800} className="object-cover h-full w-full group-hover:scale-110 transition-transform duration-1000" referrerPolicy="no-referrer" />
                   <div className="absolute inset-0 bg-black/30"></div>
                 </div>
               </div>

@@ -10,6 +10,7 @@ const services = [
   'revitalizacao',
   'manutencao',
   'acesso-por-corda',
+  'avaliacao-de-risco',
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
