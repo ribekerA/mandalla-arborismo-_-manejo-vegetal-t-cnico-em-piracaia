@@ -13,6 +13,7 @@ export const Showreel = () => {
       videoRef.current.pause();
       setPlaying(false);
     } else {
+      videoRef.current.volume = 0.3;
       videoRef.current.play();
       setPlaying(true);
     }
