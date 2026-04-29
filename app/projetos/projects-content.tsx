@@ -14,7 +14,7 @@ export default function ProjectsContent() {
       title: "Residência em Piracaia",
       category: "Poda em Altura & Rigging",
       description: "Remoção de galhos de grande porte sobre telhado colonial sem danos à estrutura.",
-      image: "https://images.pexels.com/photos/30387769/pexels-photo-30387769.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+      image: "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&q=80&w=800&h=1000",
       location: "Piracaia, SP",
       year: "2025"
     },
@@ -30,7 +30,7 @@ export default function ProjectsContent() {
       title: "Fazenda Histórica",
       category: "Reforço Estrutural & Revitalização",
       description: "Cablagem de Jequitibá centenário e tratamento fitossanitário profundo.",
-      image: "https://images.pexels.com/photos/35606516/pexels-photo-35606516.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+      image: "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&q=80&w=800&h=1000",
       location: "Joanópolis, SP",
       year: "2025"
     },
@@ -46,7 +46,7 @@ export default function ProjectsContent() {
       title: "Área Industrial",
       category: "Manejo de Risco",
       description: "Remoção controlada de árvore morta próxima a transformadores de alta tensão.",
-      image: "https://images.pexels.com/photos/8821016/pexels-photo-8821016.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+      image: "https://images.unsplash.com/photo-1591955506264-3f5a6834570a?auto=format&fit=crop&q=80&w=800&h=1000",
       location: "Itatiba, SP",
       year: "2025"
     },
@@ -54,7 +54,7 @@ export default function ProjectsContent() {
       title: "Jardim Botânico Privado",
       category: "Revitalização Nutricional",
       description: "Programa de nutrição e descompactação de solo para coleção de palmeiras raras.",
-      image: "https://images.pexels.com/photos/15163244/pexels-photo-15163244.jpeg?auto=compress&cs=tinysrgb&w=800&h=1000&fit=crop",
+      image: "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&q=80&w=800&h=1000",
       location: "Piracaia, SP",
       year: "2024"
     }
@@ -68,7 +68,7 @@ export default function ProjectsContent() {
       <section className="relative pt-40 pb-24 overflow-hidden bg-mandalla-dark text-white">
         <div className="absolute inset-0 opacity-20">
           <Image 
-            src="https://images.pexels.com/photos/8821016/pexels-photo-8821016.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop" 
+            src="https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&q=80&w=1920&h=1080" 
             alt="Projetos Mandalla" 
             fill 
             className="object-cover"

@@ -16,7 +16,7 @@ export const Gallery = () => {
       solution: "Descida guiada e fracionada (rigging), garantindo zero impacto no solo e proteção ao patrimônio."
     },
     { 
-      url: "https://images.pexels.com/photos/7812847/pexels-photo-7812847.jpeg", 
+      url: "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86", 
       title: "Manejo Vegetal para Nova Obra",
       category: "Supressão Técnica",
       location: "Piracaia, SP",
