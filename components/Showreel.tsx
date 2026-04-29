@@ -38,9 +38,9 @@ export const Showreel = () => {
           </div>
 
           {/* Vídeo — retrato em mobile e desktop */}
-          <div className="w-full md:w-auto md:flex-shrink-0">
+          <div className="w-full md:w-[320px] lg:w-[380px] md:flex-shrink-0">
             <div
-              className="relative mx-auto rounded-[2rem] sm:rounded-[3rem] overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-[320px] lg:max-w-[380px] shadow-[0_60px_120px_-20px_rgba(27,60,53,0.3)] border-4 sm:border-8 border-slate-50 cursor-pointer bg-mandalla-dark"
+              className="relative mx-auto rounded-[2rem] sm:rounded-[3rem] overflow-hidden w-full max-w-xs sm:max-w-sm md:max-w-none shadow-[0_60px_120px_-20px_rgba(27,60,53,0.3)] border-4 sm:border-8 border-slate-50 cursor-pointer bg-mandalla-dark"
               style={{ aspectRatio: '9/16' }}
               onClick={handlePlay}
             >
